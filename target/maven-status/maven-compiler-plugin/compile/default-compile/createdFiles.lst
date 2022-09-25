@@ -1,2 +1,6 @@
 tn\supcom\JaxRSActivator.class
 tn\supcom\boundaries\EchoEndpoint.class
+tn\supcom\entities\Todo.class
+tn\supcom\repositories\TodoRepository.class
+tn\supcom\JaxRSActivator$CDIConfigurator.class
+tn\supcom\controllers\EchoController.class

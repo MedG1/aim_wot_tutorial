@@ -14,6 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <jakarta.ee.api.version>9.1.0</jakarta.ee.api.version>
+        <artemis.document.version>0.0.9</artemis.document.version>
     </properties>
 
     <packaging>war</packaging>
@@ -25,6 +26,22 @@
             <version>${jakarta.ee.api.version}</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>org.jnosql.artemis</groupId>
+            <artifactId>artemis-configuration</artifactId>
+            <version>${artemis.document.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jnosql.artemis</groupId>
+            <artifactId>artemis-document</artifactId>
+            <version>${artemis.document.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jnosql.diana</groupId>
+            <artifactId>mongodb-driver</artifactId>
+            <version>${artemis.document.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>

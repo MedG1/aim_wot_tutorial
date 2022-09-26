@@ -5,6 +5,7 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 import jakarta.ws.rs.core.UriBuilder;
 import tn.supcom.controllers.EchoController;
+import tn.supcom.controllers.repositories.Repository;
 import tn.supcom.entities.Todo;
 
 @Path("/echoes")
@@ -16,6 +17,7 @@ public class EchoEndpoint {
     }
 
     @Inject
+    @Repository
     private EchoController todoManager;
 
     @GET

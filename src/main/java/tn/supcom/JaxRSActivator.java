@@ -36,8 +36,6 @@ public class JaxRSActivator extends Application{
 
         */
 
-
-
         @Produces
         public MongoDBDocumentCollectionManager createEntityManager(){
             MongoDBDocumentConfiguration configuration = new MongoDBDocumentConfiguration();
@@ -49,7 +47,4 @@ public class JaxRSActivator extends Application{
             entityManager.close();
         }
     }
-
-
-
 }

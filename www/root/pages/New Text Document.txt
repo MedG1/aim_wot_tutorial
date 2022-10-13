@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Dashboard</title>
+  </head>
+  <body>
+  	<h1>Lorem ipsum</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis, lorem eget accumsan placerat, lorem quam semper nisl, non fringilla lacus nisi eu erat. Morbi nibh lacus, hendrerit ut nibh non, porta porta metus. Nulla facilisi. Nam suscipit risus ac interdum hendrerit. Sed sed dictum eros, at malesuada ligula. Ut ipsum elit, tincidunt at magna ut, tempor ultricies ligula. Vivamus aliquam odio vel erat sodales, eleifend placerat quam venenatis. Donec at neque malesuada, dapibus lacus a, placerat enim. Mauris sed pellentesque mi. Sed vel egestas mauris, at blandit neque. Etiam porta urna sapien, eu maximus dolor dapibus a. Nullam pretium est at lacus blandit pretium. Nunc elit sapien, efficitur sit amet mauris eget, eleifend molestie arcu. Aliquam in fringilla ipsum. Nullam porttitor quam vestibulum purus tristique dapibus. Nullam tellus elit, iaculis vitae eros tincidunt, vehicula pharetra lorem.
+
+Aenean sit amet facilisis augue, in egestas nunc. Sed eu congue orci. Nullam a elementum purus, quis sagittis quam. Donec ac nunc leo. Mauris vel condimentum lacus. Maecenas ut augue purus. Proin malesuada ante in vehicula aliquet. Fusce non tincidunt lacus, at dictum nulla. Vivamus vitae sapien luctus, cursus mauris eget, mattis elit. Mauris id sapien viverra, venenatis tellus ut, eleifend nisi. Etiam felis nisi, hendrerit a varius vitae, elementum ultricies erat. Etiam non tortor porta ipsum vestibulum sollicitudin. Ut in vehicula magna. Nulla ultricies metus eget dui gravida venenatis. Aliquam pellentesque est id risus tristique facilisis vel ac lectus.
+</p>
+  </body>
+</html>

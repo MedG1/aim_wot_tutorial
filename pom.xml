@@ -15,6 +15,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <jakarta.ee.api.version>9.1.0</jakarta.ee.api.version>
         <artemis.document.version>0.0.9</artemis.document.version>
+        <smallrye.reactive.messaging.mqtt.version>3.3.2</smallrye.reactive.messaging.mqtt.version>
+        <microprofile.config.api.version>3.0.1</microprofile.config.api.version>
     </properties>
 
     <packaging>war</packaging>
@@ -40,6 +42,20 @@
             <groupId>org.jnosql.diana</groupId>
             <artifactId>mongodb-driver</artifactId>
             <version>${artemis.document.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.microprofile.config</groupId>
+            <artifactId>microprofile-config-api</artifactId>
+            <version>${microprofile.config.api.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.smallrye.reactive</groupId>
+            <artifactId>smallrye-reactive-messaging-mqtt</artifactId>
+            <version>${smallrye.reactive.messaging.mqtt.version}</version>
+            <scope>provided</scope>
         </dependency>
 
     </dependencies>

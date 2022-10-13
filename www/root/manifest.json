@@ -1,0 +1,19 @@
+{
+	"name": "Web of Things",
+	"short_name": "WoT",
+	"start_URL": "index.html",
+	"display": "standalone",
+	"background_color": "#FDFDFD",
+	"theme_color": "#DB4938",
+	"orientation": "portrait-primary",
+	"icons": [
+		{"src": "/images/icons/", "type": "image/png", "sizes": "72x72"  },
+		{"src": "/images/icons/", "type": "image/png", "sizes": "96x96"  },
+		{"src": "/images/icons/", "type": "image/png", "sizes": "128x128"},
+		{"src": "/images/icons/", "type": "image/png", "sizes": "144x144"},
+		{"src": "/images/icons/", "type": "image/png", "sizes": "152x152"},
+		{"src": "/images/icons/", "type": "image/png", "sizes": "192x192"},
+		{"src": "/images/icons/", "type": "image/png", "sizes": "384x384"},
+		{"src": "/images/icons/", "type": "image/png", "sizes": "512x512"}
+	]
+}

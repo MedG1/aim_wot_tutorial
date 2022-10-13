@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Dashboard</title>
+	<script type="module" src="../scripts/test_observable.js" ></script>
+  </head>
+  <body>
+  	<h1>Observable Tester</h1>
+               <div>
+                              <h2>Data Binding Example</h2>
+                              <form id="user-form" style="width:50vw">
+                                             <div class="row mb-3">
+                                                            <label class="col-sm-2 col-form-label" for="forename">
+                                                                           <span>Forename:&nbsp;</span>
+                                                            </label>
+                                                            <div class="col-sm-10">
+                                                                           <input class="form-control" id="forename" type="text" data-bind="forename"/>
+                                                            </div>    
+                                             </div>
+                                             
+                                             <div class="row mb-3">
+                                                            <label class="col-sm-2 col-form-label" for="surname">
+                                                                           <span>Surname:&nbsp;</span>
+                                                            </label>
+                                                            <div class="col-sm-10"> 
+                                                                           <input class="form-control" id="surname" type="text" data-bind="surname"/>
+                                                            </div>
+                                             </div>
+                                             
+                                             <div class="row mb-3">
+                                                            <label class="col-sm-2 col-form-label" for="fullname"
+                                                                           <span>Fullname:&nbsp;</span>
+                                                            </label>
+                                                            <div class="col-sm-10">
+                                                                           <input class="form-control" id="fullname" type="text" data-bind="fullname" disabled="disabled"/>
+                                                            </div>
+                                                            <div id="fullnameInfo" class="form-text">This is a ComputedObservable</div>
+                                             </div>
+
+                                             <div class="row mb-3">
+                                                            <label class="col-sm-2 col-form-label" for="birthdate">
+                                                                           <span>Birth Date:&nbsp;</span>
+                                                            </label>
+                                                            <div class="col-sm-10">
+                                                                           <input class="form-control" id="birthdate" type="date" data-bind="birthDate"/>
+                                                            </div>
+                                             </div>
+                                             
+                                             <div class="row mb-3">
+                                                            <label class="col-sm-2 col-form-label" for="age">
+                                                                           <span>Age:&nbsp;</span>
+                                                            </label>
+                                                            <div class="col-sm-10">
+                                                                           <input class="form-control" id="age" type="text" data-bind="age" disabled="disabled"/>
+                                                            </div>
+                                                            <div id="fullnameInfo" class="form-text">This is a ComputedObservable</div>                                       
+                                             </div>
+
+                                             <div class="row mb-3">
+                                                            <label class="col-sm-2 col-form-label" for="ageCategory">
+                                                                           <span>Age Category:&nbsp;</span>
+                                                            </label>
+                                                            <div class="col-sm-10">
+                                                                           <input class="form-control" id="ageCategory" type="text" data-bind="ageCategory" disabled="disabled"/>
+                                                            </div>
+                                                            <div id="fullnameInfo" class="form-text">This is a ComputedObservable</div>                                       
+                                             </div>
+                                             
+                                             <button type="submit" class="btn btn-primary">Register</button>
+                              </form>
+							  </div>
+  </body>
+</html>

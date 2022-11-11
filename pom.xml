@@ -13,10 +13,12 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <jakarta.ee.api.version>9.1.0</jakarta.ee.api.version>
+        <jakarta.ee.api.version>10.0.0</jakarta.ee.api.version>
         <artemis.document.version>0.0.9</artemis.document.version>
         <smallrye.reactive.messaging.mqtt.version>3.3.2</smallrye.reactive.messaging.mqtt.version>
         <microprofile.config.api.version>3.0.1</microprofile.config.api.version>
+        <argon2.jvm.version>2.11</argon2.jvm.version>
+        <nimbus.jose.jwt.version>9.21.1</nimbus.jose.jwt.version>
     </properties>
 
     <packaging>war</packaging>
@@ -39,6 +41,11 @@
             <version>${artemis.document.version}</version>
         </dependency>
         <dependency>
+            <groupId>de.mkammerer</groupId>
+            <artifactId>argon2-jvm</artifactId>
+            <version>${argon2.jvm.version}</version>
+        </dependency>
+        <dependency>
             <groupId>org.jnosql.diana</groupId>
             <artifactId>mongodb-driver</artifactId>
             <version>${artemis.document.version}</version>
@@ -50,12 +57,22 @@
             <version>${microprofile.config.api.version}</version>
             <scope>provided</scope>
         </dependency>
-
+        <dependency>
+            <groupId>com.nimbusds</groupId>
+            <artifactId>nimbus-jose-jwt</artifactId>
+            <version>${nimbus.jose.jwt.version}</version>
+        </dependency>
         <dependency>
             <groupId>io.smallrye.reactive</groupId>
             <artifactId>smallrye-reactive-messaging-mqtt</artifactId>
             <version>${smallrye.reactive.messaging.mqtt.version}</version>
             <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.paho</groupId>
+            <artifactId>org.eclipse.paho.mqttv5.client</artifactId>
+            <version>1.2.5</version>
         </dependency>
 
     </dependencies>
@@ -70,5 +87,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
